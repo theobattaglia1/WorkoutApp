@@ -1,0 +1,182 @@
+{
+  "workouts": [
+    {
+      "id": "w1",
+      "name": "Chest Pump",
+      "category": "CHEST",
+      "equipment": "Gym",
+      "duration": 30,
+      "exercises": [
+        {
+          "id": "e1",
+          "name": "Barbell Bench Press",
+          "gifName": "barbell_bench_press.gif",
+          "sets": 3,
+          "reps": 8
+        },
+        {
+          "id": "e2",
+          "name": "Dumbbell Fly",
+          "gifName": "dumbbell_fly.gif",
+          "sets": 3,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "w2",
+      "name": "Leg Day Heavy",
+      "category": "LOWER",
+      "equipment": "Gym",
+      "duration": 40,
+      "exercises": [
+        {
+          "id": "e3",
+          "name": "Barbell Squat",
+          "gifName": "barbell_squat.gif",
+          "sets": 4,
+          "reps": 6
+        },
+        {
+          "id": "e4",
+          "name": "Leg Press",
+          "gifName": "leg_press.gif",
+          "sets": 4,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "id": "w3",
+      "name": "Back & Biceps",
+      "category": "BACK",
+      "equipment": "Gym",
+      "duration": 35,
+      "exercises": [
+        {
+          "id": "e5",
+          "name": "Pull-Ups",
+          "gifName": "pullups.gif",
+          "sets": 3,
+          "reps": 8
+        },
+        {
+          "id": "e6",
+          "name": "Barbell Row",
+          "gifName": "barbell_row.gif",
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "id": "e7",
+          "name": "EZ-Bar Curl",
+          "gifName": "ezbar_curl.gif",
+          "sets": 3,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "w4",
+      "name": "Shoulder Day",
+      "category": "SHOULDERS",
+      "equipment": "Gym",
+      "duration": 30,
+      "exercises": [
+        {
+          "id": "e8",
+          "name": "Military Press",
+          "gifName": "barbell_military_press.gif",
+          "sets": 3,
+          "reps": 8
+        },
+        {
+          "id": "e9",
+          "name": "Dumbbell Lateral Raise",
+          "gifName": "db_lateral_raise.gif",
+          "sets": 3,
+          "reps": 10
+        }
+      ]
+    },
+    {
+      "id": "wShouldersArms45",
+      "name": "Shoulders and Arms :45",
+      "category": "UPPER",
+      "equipment": "Gym",
+      "duration": 45,
+      "exercises": [
+        {
+          "id": "wa-1",
+          "name": "Overhead Press",
+          "gifName": "overhead_press.gif",
+          "sets": 5,
+          "reps": null,
+          "primaryCategory": null,
+          "secondaryCategory": null,
+          "instructions": "Wave sets: 6@75,4@85,2@95,4@85,6@75. Rest: 90s (wave),60s. Tight core, stable."
+        },
+        {
+          "id": "wa-2",
+          "name": "Lateral Raise",
+          "gifName": "lateral_raise.gif",
+          "sets": 3,
+          "reps": null,
+          "primaryCategory": null,
+          "secondaryCategory": null,
+          "instructions": "Sets with progressive weight: e.g. 10@15,10@15,10@20. Rest: 60s. Smooth tempo."
+        },
+        {
+          "id": "wa-3",
+          "name": "Upright Row",
+          "gifName": "upright_row.gif",
+          "sets": 3,
+          "reps": 8,
+          "primaryCategory": null,
+          "secondaryCategory": null,
+          "instructions": "Rest: 60s. Elbows up."
+        },
+        {
+          "id": "wa-4",
+          "name": "Skullcrusher",
+          "gifName": "skullcrusher.gif",
+          "sets": 3,
+          "reps": 10,
+          "primaryCategory": null,
+          "secondaryCategory": null,
+          "instructions": "Rest: 60s. Don’t flare elbows."
+        },
+        {
+          "id": "wa-5",
+          "name": "Reverse Grip Tricep Pushdown",
+          "gifName": "reverse_grip_tricep_pushdown.gif",
+          "sets": 3,
+          "reps": 12,
+          "primaryCategory": null,
+          "secondaryCategory": null,
+          "instructions": "Rest: 60s. Smooth negative."
+        },
+        {
+          "id": "wa-6",
+          "name": "Cardio Finisher",
+          "gifName": "cardio_finisher.gif",
+          "sets": null,
+          "reps": null,
+          "primaryCategory": null,
+          "secondaryCategory": null,
+          "instructions": "Optional: 2x30s Butt Kicks"
+        },
+        {
+          "id": "wa-7",
+          "name": "Abs Finisher",
+          "gifName": "abs_finisher.gif",
+          "sets": null,
+          "reps": null,
+          "primaryCategory": null,
+          "secondaryCategory": null,
+          "instructions": "Bicycle Crunch 2x15 each side"
+        }
+      ]
+    }
+  ]
+}

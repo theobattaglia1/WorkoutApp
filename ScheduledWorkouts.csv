@@ -1,0 +1,75 @@
+date,workoutID,exercise,set1_reps,set1_weight,set2_reps,set2_weight,set3_reps,set3_weight,set4_reps,set4_weight,set5_reps,set5_weight,rest,instructions,category
+2025-03-19,Day1,Barbell Full Squat,8-10,135,8-10,145,8-10,155,N/A,N/A,N/A,N/A,60s,"Keep chest up, drive through heels",LOWER
+2025-03-19,Day1,Barbell Glute Bridge,12-15,65,12-15,75,12-15,85,N/A,N/A,N/A,N/A,45s,"Squeeze glutes at top",LOWER
+2025-03-19,Day1,Barbell Banded Romanian Deadlift,8-10,95,8-10,105,8-10,115,N/A,N/A,N/A,N/A,60s,"Maintain neutral spine",LOWER
+2025-03-19,Day1,Band Split Squat,"10 each leg","(2x15)DB","10 each leg","(2x20)DB","10 each leg","(2x25)DB",N/A,N/A,N/A,N/A,60s,"Keep torso upright",LOWER
+2025-03-19,Day1,Barbell Hip Thrust,"10-12",95,"10-12",115,"10-12",135,N/A,N/A,N/A,N/A,60s,"Drive through heels, hold top",LOWER
+2025-03-19,Day1,Band Lateral Walk,"15 each side","Light Band","15 each side","Light Band","15 each side","Light Band",N/A,N/A,N/A,N/A,30s,"Stay low, keep tension",LOWER
+2025-03-19,Day1,Plank Holds,"30s",Bodyweight,"30s",Bodyweight,"30s",Bodyweight,N/A,N/A,N/A,N/A,30s,"Maintain neutral spine",LOWER
+2025-03-19,Day1,Treadmill HIIT,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"30s rest","30s sprint intervals for 10 min",LOWER
+2025-03-20,Day2,Barbell Military Press,8-10,55,8-10,65,8-10,75,N/A,N/A,N/A,N/A,60s,"Elbows slightly forward",UPPER
+2025-03-20,Day2,Assisted Pull up,8-10,"Bodyweight/Assist",8-10,"Bodyweight/Assist",8-10,"Bodyweight/Assist",N/A,N/A,N/A,N/A,60s,"Full range of motion",UPPER
+2025-03-20,Day2,Dumbbell Lateral Raise,12,8,12,10,12,12,N/A,N/A,N/A,N/A,45s,"Lead with elbows",UPPER
+2025-03-20,Day2,Barbell Bent Over Row,8-10,65,8-10,75,8-10,85,N/A,N/A,N/A,N/A,60s,"Neutral spine, pull elbows back",UPPER
+2025-03-20,Day2,Push-Up,AMRAP,Bodyweight,AMRAP,Bodyweight,AMRAP,Bodyweight,N/A,N/A,N/A,N/A,45s,"Core tight, full depth",UPPER
+2025-03-20,Day2,Dumbbell Biceps Curl,"10-12",15,"10-12",20,"10-12",25,N/A,N/A,N/A,N/A,45s,"Elbows at sides",UPPER
+2025-03-20,Day2,Band Bicycle Crunch,15,Bodyweight,15,Bodyweight,15,Bodyweight,N/A,N/A,N/A,N/A,30s,"Twist from core",UPPER
+2025-03-20,Day2,Jump Rope Intervals,"1 min",Bodyweight,"1 min",Bodyweight,"1 min",Bodyweight,N/A,N/A,N/A,N/A,30s,"5 rounds, rest 30s",UPPER
+2025-03-21,Day3,Barbell Deadlift,"6-8",115,"6-8",135,"6-8",155,N/A,N/A,N/A,N/A,90s,"Flat back, engage glutes",LOWER
+2025-03-21,Day3,Barbell Lunge,"8 each leg","(2x15)DB","8 each leg","(2x20)DB","8 each leg","(2x25)DB",N/A,N/A,N/A,N/A,60s,"Step back, upright torso",LOWER
+2025-03-21,Day3,Band Kickback,"12 each leg",20,"12 each leg",25,"12 each leg",30,N/A,N/A,N/A,N/A,45s,"Slow, controlled",LOWER
+2025-03-21,Day3,Assisted Bulgarian Split Squat,"8 each leg","(2x15)DB","8 each leg","(2x20)DB","8 each leg","(2x25)DB",N/A,N/A,N/A,N/A,60s,"Knee behind toes",LOWER
+2025-03-21,Day3,Barbell Front Step Up,"10 each leg","(2x15)DB","10 each leg","(2x20)DB","10 each leg","(2x25)DB",N/A,N/A,N/A,N/A,60s,"Drive through heel",LOWER
+2025-03-21,Day3,Assisted Inverse Leg Curl,"10-12",50,"10-12",60,"10-12",70,N/A,N/A,N/A,N/A,60s,"No hip lift",LOWER
+2025-03-21,Day3,Weighted Crunch + Flutter Kicks,"(10+20)","10 lb plate","(10+20)","10 lb plate","(10+20)","10 lb plate",N/A,N/A,N/A,N/A,30s,"Crunch then flutter kicks",LOWER
+2025-03-21,Day3,Rowing Sprints,"2 min",N/A,"2 min",N/A,"2 min",N/A,N/A,N/A,N/A,N/A,"1 min","High intensity, 3 rounds",LOWER
+2025-03-22,Day4,Brisk Walk/Light Jog,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"30 min","Easy pace",RECOVERY
+2025-03-22,Day4,Barbell Glute Bridge,15,Bodyweight,15,Bodyweight,N/A,N/A,N/A,N/A,N/A,N/A,30s,"Squeeze glutes",RECOVERY
+2025-03-22,Day4,Cat-Camel,10,Bodyweight,10,Bodyweight,N/A,N/A,N/A,N/A,N/A,N/A,30s,"Slow, controlled",RECOVERY
+2025-03-22,Day4,Plank,"30s",Bodyweight,"30s",Bodyweight,N/A,N/A,N/A,N/A,N/A,N/A,30s,"Core tight",RECOVERY
+2025-03-22,Day4,Side Plank,"30s each side",Bodyweight,"30s each side",Bodyweight,N/A,N/A,N/A,N/A,N/A,N/A,30s,"Hips up",RECOVERY
+2025-03-22,Day4,Light Jog/Elliptical,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"20 min","Steady pace",RECOVERY
+2025-03-23,Day5,Barbell Bench Press,8-10,95,8-10,105,8-10,115,N/A,N/A,N/A,N/A,60s,"Keep shoulders retracted",UPPER
+2025-03-23,Day5,Dumbbell Incline Press,8-10,"(2x30)DB",8-10,"(2x35)DB",8-10,"(2x40)DB",N/A,N/A,N/A,N/A,60s,"Control descent",UPPER
+2025-03-23,Day5,Band Seated Row,"10-12",70,"10-12",80,"10-12",90,N/A,N/A,N/A,N/A,45s,"Squeeze shoulder blades",UPPER
+2025-03-23,Day5,Band Face Pull,12,30,12,35,12,40,N/A,N/A,N/A,N/A,45s,"Elbows high, external rotation",UPPER
+2025-03-23,Day5,Assisted Triceps Dip (kneeling),AMRAP,Bodyweight,AMRAP,Bodyweight,AMRAP,Bodyweight,N/A,N/A,N/A,N/A,45s,"Elbows back, chest up",UPPER
+2025-03-23,Day5,Dumbbell Lateral Raise,"10-12",8,"10-12",10,"10-12",12,N/A,N/A,N/A,N/A,45s,"Focus on delts",UPPER
+2025-03-23,Day5,Reverse Crunch,12,Bodyweight,12,Bodyweight,12,Bodyweight,N/A,N/A,N/A,N/A,30s,"Lift hips off floor",UPPER
+2025-03-23,Day5,Stationary Bike Sprints,"1 min",N/A,"1 min",N/A,"1 min",N/A,N/A,N/A,N/A,N/A,30s,"5 rounds, rest 30s",UPPER
+2025-03-24,Day6,Barbell Front Squat,8-10,95,8-10,105,8-10,115,N/A,N/A,N/A,N/A,60s,"Elbows up, core tight",LOWER
+2025-03-24,Day6,Banded Glute Ham Raise (VERSION 3),10,Bodyweight,10,Bodyweight,10,Bodyweight,N/A,N/A,N/A,N/A,45s,"Controlled descent",LOWER
+2025-03-24,Day6,Barbell Hip Thrust,8-10,115,8-10,135,8-10,155,N/A,N/A,N/A,N/A,60s,"Squeeze glutes",LOWER
+2025-03-24,Day6,Reverse Hyperextension,"10-12",Bodyweight,"10-12",Bodyweight,"10-12",Bodyweight,N/A,N/A,N/A,N/A,45s,"Control swing",LOWER
+2025-03-24,Day6,Leg Press,"10-12",180,"10-12",200,"10-12",220,N/A,N/A,N/A,N/A,60s,"Don’t lock knees",LOWER
+2025-03-24,Day6,Curtsy Lunge,"10 each leg","(2x15)DB","10 each leg","(2x20)DB","10 each leg","(2x25)DB",N/A,N/A,N/A,N/A,60s,"Cross leg behind, upright",LOWER
+2025-03-24,Day6,Ab Roller Crunch,10,Bodyweight,10,Bodyweight,10,Bodyweight,N/A,N/A,N/A,N/A,30s,"Core braced",LOWER
+2025-03-24,Day6,Sled Pushes/Sprints,"40 yd",N/A,"40 yd",N/A,"40 yd",N/A,N/A,N/A,N/A,N/A,60s,"5 rounds, explosive",LOWER
+2025-03-25,Day7,Kettlebell Swing,"10-12",35,"10-12",35,"10-12",35,N/A,N/A,N/A,N/A,Minimal,"Hip drive",FULL
+2025-03-25,Day7,Goblet Squat,"10-12",35,"10-12",35,"10-12",35,N/A,N/A,N/A,N/A,Minimal,"Keep chest up",FULL
+2025-03-25,Day7,Push-Up,"10-12",Bodyweight,"10-12",Bodyweight,"10-12",Bodyweight,N/A,N/A,N/A,N/A,Minimal,"Core tight",FULL
+2025-03-25,Day7,Dumbbell Row,"10-12",20,"10-12",25,"10-12",30,N/A,N/A,N/A,N/A,Minimal,"Back flat",FULL
+2025-03-25,Day7,Walking Lunge,"10-12 each leg","(2x15)DB","10-12 each leg","(2x15)DB","10-12 each leg","(2x15)DB",N/A,N/A,N/A,N/A,Minimal,"Step forward",FULL
+2025-03-25,Day7,Mountain Climbers,"30s",Bodyweight,"30s",Bodyweight,"30s",Bodyweight,N/A,N/A,N/A,N/A,Minimal,"Drive knees up",FULL
+2025-03-25,Day7,Weighted Plank,"30s",25,"30s",25,"30s",25,N/A,N/A,N/A,N/A,30s,"Maintain neutral spine",FULL
+2025-03-25,Day7,Rowing Intervals,"1 min",N/A,"1 min",N/A,"1 min",N/A,N/A,N/A,N/A,N/A,"1 min easy","5 cycles (10 min total)",FULL
+2025-03-26,Day8,Easy Cycling,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"30min","Moderate pace",RECOVERY
+2025-03-26,Day8,Foam Rolling/Mobility Drills,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"Focus on tight areas",RECOVERY
+2025-03-26,Day8,Hanging Leg Raises,8,Bodyweight,8,Bodyweight,8,Bodyweight,N/A,N/A,N/A,N/A,30s,"Control swing",RECOVERY
+2025-03-26,Day8,Steady Cycling,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"15min","Maintain moderate pace",RECOVERY
+2025-03-27,Day9,Barbell Full Squat (Heavier),"6-8",135,"6-8",155,"6-8",165,"6-8",175,N/A,N/A,90s,"Focus on depth",LOWER
+2025-03-27,Day9,Barbell Hip Thrust,"8-10",135,"8-10",155,"8-10",175,"8-10",185,N/A,N/A,60s,"Hold 1s at top",LOWER
+2025-03-27,Day9,Barbell Lunge,"10 each leg","(2x20)DB","10 each leg","(2x25)DB","10 each leg","(2x30)DB",N/A,N/A,N/A,N/A,60s,"Stay upright",LOWER
+2025-03-27,Day9,Barbell Banded Romanian Deadlift,"8-10",105,"8-10",115,"8-10",125,N/A,N/A,N/A,N/A,60s,"Hinge at hips",LOWER
+2025-03-27,Day9,Barbell Glute Bridge March,"12 total",Bodyweight,"12 total",Bodyweight,"12 total",Bodyweight,N/A,N/A,N/A,N/A,45s,"Alternate legs at top",LOWER
+2025-03-27,Day9,Band hip abduction,"12 each leg",20,"12 each leg",25,"12 each leg",30,N/A,N/A,N/A,N/A,45s,"Focus on side glute",LOWER
+2025-03-27,Day9,Cable Crunch,12,50,12,55,12,60,N/A,N/A,N/A,N/A,30s,"Crunch with abs",LOWER
+2025-03-27,Day9,Sprint Intervals,"30s",N/A,"30s",N/A,"30s",N/A,"30s",N/A,N/A,N/A,30s,"8 rounds",LOWER
+2025-03-28,Day10,Barbell Military Press,8-10,65,8-10,75,8-10,85,N/A,N/A,N/A,N/A,60s,"Add weight if possible",UPPER
+2025-03-28,Day10,Weighted Pull-Up,"6-8","+10","6-8","+15","6-8","+20",N/A,N/A,N/A,N/A,60s,"Use belt or dumbbell",UPPER
+2025-03-28,Day10,Dumbbell Chest Press,8-10,"(2x30)DB",8-10,"(2x35)DB",8-10,"(2x40)DB",N/A,N/A,N/A,N/A,60s,"Lower under control",UPPER
+2025-03-28,Day10,Single-Arm Row,"10 each arm",35,"10 each arm",40,"10 each arm",45,N/A,N/A,N/A,N/A,45s,"Stabilize core",UPPER
+2025-03-28,Day10,Dumbbell Lateral Raise,"10-12",10,"10-12",12,"10-12",15,N/A,N/A,N/A,N/A,45s,"No swinging",UPPER
+2025-03-28,Day10,Band Face Pull,12,35,12,40,12,45,N/A,N/A,N/A,N/A,45s,"High elbows",UPPER
+2025-03-28,Day10,Dragon Flags,"6-8",Bodyweight,"6-8",Bodyweight,"6-8",Bodyweight,N/A,N/A,N/A,N/A,30s,"Slow negative",UPPER
+2025-03-28,Day10,All-Out Cardio Circuit,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,"5min, cycles of high knees, ropes, box jumps",UPPER
