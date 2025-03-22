@@ -2,14 +2,14 @@ import SwiftUI
 
 @main
 struct WorkoutApp: App {
-    @StateObject private var dataModel = DataModel()
-    @StateObject private var stopwatch = StopwatchState()
-
+    @StateObject var dataModel = DataModel()
+    @StateObject var stopwatchState = StopwatchState()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(dataModel)
-                .environmentObject(stopwatch)
+                .environmentObject(stopwatchState)
         }
     }
 }

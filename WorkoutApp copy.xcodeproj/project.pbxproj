@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40180BEB2D8B82EA00EFA482 /* ScheduledWorkouts.csv in Resources */ = {isa = PBXBuildFile; fileRef = 40180BEA2D8B82EA00EFA482 /* ScheduledWorkouts.csv */; };
+		40910DED2D8E395D008A93A8 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 40910DEC2D8E395D008A93A8 /* SDWebImage */; };
 		40CE68BA2D8A6C10000A0F65 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 40CE68B92D8A6C10000A0F65 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
@@ -47,22 +48,11 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		40180BE02D8B52D700EFA482 /* Exceptions for "WorkoutApp" folder in "Compile Sources" phase from "WorkoutApp" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 40C3462E2D8A607C00A7186F /* Sources */;
-			membershipExceptions = (
-				Workouts.json,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		40C346342D8A607C00A7186F /* WorkoutApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				40C346582D8A607D00A7186F /* Exceptions for "WorkoutApp" folder in "WorkoutApp" target */,
-				40180BE02D8B52D700EFA482 /* Exceptions for "WorkoutApp" folder in "Compile Sources" phase from "WorkoutApp" target */,
 			);
 			path = WorkoutApp;
 			sourceTree = "<group>";
@@ -84,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40910DED2D8E395D008A93A8 /* SDWebImage in Frameworks */,
 				40CE68BA2D8A6C10000A0F65 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +140,7 @@
 			name = WorkoutApp;
 			packageProductDependencies = (
 				40CE68B92D8A6C10000A0F65 /* SDWebImageSwiftUI */,
+				40910DEC2D8E395D008A93A8 /* SDWebImage */,
 			);
 			productName = WorkoutApp;
 			productReference = 40C346322D8A607C00A7186F /* WorkoutApp.app */;
@@ -234,6 +226,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				40CE68B82D8A6C10000A0F65 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				40910DEB2D8E395D008A93A8 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 40C346332D8A607C00A7186F /* Products */;
@@ -632,6 +625,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		40910DEB2D8E395D008A93A8 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.0;
+			};
+		};
 		40CE68B82D8A6C10000A0F65 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
@@ -643,6 +644,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		40910DEC2D8E395D008A93A8 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40910DEB2D8E395D008A93A8 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
 		40CE68B92D8A6C10000A0F65 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 40CE68B82D8A6C10000A0F65 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;

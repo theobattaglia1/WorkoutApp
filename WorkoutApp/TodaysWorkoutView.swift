@@ -1,47 +1,48 @@
 import SwiftUI
 
-struct TodaysWorkoutView: View {
+struct TodayWorkoutView: View {
     @EnvironmentObject var dataModel: DataModel
-    @State private var selectedDate = Date()
 
-    var workoutsForDate: [ScheduledWorkout] {
-        dataModel.scheduledWorkouts.filter {
-            Calendar.current.isDate($0.date, inSameDayAs: selectedDate)
-        }
+    // For demonstration, assuming the first workout is today's workout.
+    // Replace this with actual logic to determine today's workout.
+    var todaysWorkout: Workout? {
+        return dataModel.allWorkouts.first
     }
-
+    
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
-            VStack {
-                Text("TODAY'S WORKOUT")
-                    .foregroundColor(.white)
-                    .font(.title)
-                    .padding()
-
-                DatePicker("Select Date", selection: $selectedDate, displayedComponents: .date)
-                    .datePickerStyle(GraphicalDatePickerStyle())
-                    .colorInvert()
-                    .colorMultiply(.white)
-                    .padding()
-
-                if workoutsForDate.isEmpty {
-                    Text("No scheduled workouts for this date.")
+            if let workout = todaysWorkout {
+                VStack(spacing: 20) {
+                    Text("Today's Workout")
+                        .font(.system(size: 28, weight: .bold))
                         .foregroundColor(.white)
-                        .padding()
-                } else {
-                    List(workoutsForDate) { w in
-                        NavigationLink(destination: ScheduledWorkoutDetailView(workout: w)) {
-                            Text("Workout ID: \(w.workoutID) — \(w.exercises.count) exercises")
-                                .foregroundColor(.white)
-                        }
-                        .listRowBackground(Color.gray.opacity(0.2))
-                    }
-                    .scrollContentBackground(.hidden)
-                    .background(Color.black)
+                        .padding(.top, 20)
+                    
+                    WorkoutDetailView(workout: workout)
+                        .padding(.horizontal, 20)
+                    
+                    Spacer()
                 }
+            } else {
+                Text("No workout scheduled for today")
+                    .font(.system(size: 18, weight: .medium))
+                    .foregroundColor(.gray)
             }
         }
         .navigationTitle("Today's Workout")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+struct TodayWorkoutView_Previews: PreviewProvider {
+    static var previews: some View {
+        let dataModel = DataModel()
+        dataModel.allWorkouts = [
+            Workout(id: UUID(), title: "Today's Full Body", synergyScore: 20)
+        ]
+        return NavigationStack {
+            TodayWorkoutView().environmentObject(dataModel)
+        }
     }
 }
